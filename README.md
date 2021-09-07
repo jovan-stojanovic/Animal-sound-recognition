@@ -21,6 +21,7 @@ Three models were trained: CNN14, ResNet38 and Wavegram-Logmel-CNN.
 ## Results
 We have managed to show that models that are exclusively trained on animal sounds data provide better results than general purpose models. 
 The best sound prediction model obtained so far on the AudioSet database, the Wavegram-Logmel-CNN, with a mean average precision (mAP) of 0.439, has been surpassed by our ResNet38 and CNN14 models trained on animal sounds with a mAP of 0.551 and 0.561 respectively.
+![alt text](statistics/four_figures_final.pdf)
 
 Understandably, these models are trained on different data and their results may not be compared withease, especially the mAP, as showed in the class-wise analysis.  There is a structural class effect that needs to betaken into account,  as some types of sounds are more complex to classify than others,  which is unknown at thebeginning.  But, we have showed that the model which is best for general purpose training will not always be thesame that that which will be applied to a specific group of data from the same source.
 
