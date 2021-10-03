@@ -21,9 +21,12 @@ Three models were trained: CNN14, ResNet38 and Wavegram-Logmel-CNN.
 ## Results
 We have managed to show that models that are exclusively trained on animal sounds data provide better results than general purpose models. 
 The best sound prediction model obtained so far on the AudioSet database, the Wavegram-Logmel-CNN, with a mean average precision (mAP) of 0.439, has been surpassed by our ResNet38 and CNN14 models trained on animal sounds with a mAP of 0.551 and 0.561 respectively.
-![alt text](statistics/four_figures_final.pdf)
+![first image](https://github.com/JovanP1/Animal-sound-recognition/blob/main/statistics/four_figures_final.PNG)
 
-Understandably, these models are trained on different data and their results may not be compared withease, especially the mAP, as showed in the class-wise analysis.  There is a structural class effect that needs to betaken into account,  as some types of sounds are more complex to classify than others,  which is unknown at thebeginning.  But, we have showed that the model which is best for general purpose training will not always be thesame that that which will be applied to a specific group of data from the same source.
+Understandably, these models are trained on different data and their results may not be compared withease, especially the mAP, as showed in the class-wise analysis.  
+![second image](https://github.com/JovanP1/Animal-sound-recognition/blob/main/statistics/CNN14_classwise_results.PNG)
+
+There is a structural class effect that needs to betaken into account,  as some types of sounds are more complex to classify than others,  which is unknown at the beginning.  But, we have showed that the model which is best for general purpose training will not always be thesame that that which will be applied to a specific group of data from the same source.
 
 Future  research  may  focus  on  confirming  or  denying  the  above  hypothesis  we  have  made  on  trainingdifferent groups compared to aggregates.  Tuning the parameters and discovering the ones that fit well for this kindof problems would also be important.  Other models may be tested, such as the MobileNetV1, that due to it’s lighter network may be possible to incorporate in a smartphone application.
 
