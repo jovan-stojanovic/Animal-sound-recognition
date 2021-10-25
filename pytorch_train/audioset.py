@@ -1,6 +1,6 @@
 # # Training of models for AudioSet animal sound database 
 
-# ### Code and models are inspired by https://github.com/qiuqiangkong/audioset_tagging_cnn and *[1] Qiuqiang Kong, Yin Cao, Turab Iqbal, Yuxuan Wang, Wenwu Wang, Mark D. Plumbley. "PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition." arXiv preprint arXiv:1912.10211 (2019)*
+#### Code and models are reused from https://github.com/qiuqiangkong/audioset_tagging_cnn
 
 # * #### *dataset* is a folder that contains the test (eval.h5), validation (balanced_train.h5) set, and all parts of the training set
 # * #### *indices* is a folder that contains infromation on the classes, and the differents sets of data

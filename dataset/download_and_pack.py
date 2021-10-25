@@ -219,7 +219,7 @@ download_wavs(args)
 #For pack_waveforms_to_hdf5 function
 args.csv_path = r"your_path\unbalanced_train_segments\unbalanced_train_segments_partxx.csv"       #type=str, required=True, help='Path of csv file containing audio info to be downloaded.')
 args.audios_dir = r"your_path\unbalanced_train_segments\unbalanced_train_data_xx"      #type=str, required=True, help='Directory to save out downloaded audio.')
-args.waveforms_hdf5_path = r"F:\audioset_tagging_cnn\hdf5s\unbalanced_train_xx.h5"  #type=str, required=True, help='Path to save out packed hdf5.')
+args.waveforms_hdf5_path = r"your_path\audioset_tagging_cnn\hdf5s\unbalanced_train_xx.h5"  #type=str, required=True, help='Path to save out packed hdf5.')
 args.mini_data=False  #action='store_true', default=False, help='Set true to only download 10 audios for debugging.')
 
 pack_waveforms_to_hdf5(args)    
