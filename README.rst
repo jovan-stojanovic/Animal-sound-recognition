@@ -1,5 +1,5 @@
-Animal sound recognition using deep learning techniques
-=======================================================
+`Animal sound recognition using deep learning techniques`
+=========================================================
 
 This repo contains code in Python for an application of the sound recognition techniques from this paper: **PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition** [1] on animal sound recognition.
 The database used for this is Google Audioset, a big dataset of classified audio, from the Youtube-8M project, containing ”632 audio event classes and a collection of 2,084,320 human-labeled 10-second sound clips drawn from YouTube videos” (see [2]).
