@@ -1,6 +1,8 @@
 `Animal sound recognition using deep learning techniques`
 =========================================================
 
+This is a project for the `second year master's degree (TIDE) <https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/master-M/master-econometrie-statistiques-KBURDRPJ//master-parcours-traitement-de-l-information-et-data-science-en-entreprise-tide-formation-initiale-et-apprentissage-KBUREJV4.html>`_ at the `Paris I Panthéon-Sorbonne University <https://www.pantheonsorbonne.fr/>`_, Deep Learning course.
+
 This repo contains code in Python for an application of the sound recognition techniques from this paper: `PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition <https://ieeexplore.ieee.org/document/9229505>`_ [1]_ on animal sound recognition.
 The database used for this is Google Audioset, a big dataset of classified audio, from the Youtube-8M project, containing ”632 audio event classes and a collection of 2,084,320 human-labeled 10-second sound clips drawn from YouTube videos” (`see <https://ieeexplore.ieee.org/abstract/document/7952261>`_ [2]_).
 The idea was to apply the technique used in `this repository <https://github.com/qiuqiangkong/audioset_tagging_cnn>`_ to animal sound recognition and observe the results.  
